@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/all.css">
+    <script src="js/script.js"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="https://2.bp.blogspot.com/-rlaDo8ygf_s/T9dhQLw0SQI/AAAAAAAAADs/NJV30dD2Nf0/s400/Logo-UNI.png"
+        type="image/png">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>UNI Informa</title>
+</head>
+
+<body onload="inicio()">
+    <header class="principal">
+        <nav>
+            <a href="#">Cultura</a>
+            <a href="#">Eventos</a>
+            <a href="#">Comunicados</a>
+            <img id="logo"
+                src="https://2.bp.blogspot.com/-rlaDo8ygf_s/T9dhQLw0SQI/AAAAAAAAADs/NJV30dD2Nf0/s400/Logo-UNI.png">
+            <a href="#">Curiosidades</a>
+            <a href="#">Libre</a>
+            <a href="#">Salud</a>
+        </nav>
+    </header>
+    <main class="principal">
+        <div class="panel-izquierdo">
+            <h3>Artículos Recientes</h3>
+            <article class="articulo">
+                <div class="imagen-articulo">
+                    <img src="https://procomunicando.files.wordpress.com/2017/08/20170815_173837.jpg?w=584"
+                        alt="imagen1" class="post_img">
+                </div>
+                <div class="texto">
+                    <div class="titulo">
+                        <h2>¡El aprendizaje cambia de forma en la UNI!</h2>
+                    </div>
+                    <div class="subtitulo">
+                        <h4>Julio Estrada <span class="area">viernes 5 de junio, 2020</span> </h4>
+                    </div>
+                    <div class="parrafo">
+                        <p> Muchos Adultos Mayores siguen cursos sobre distintos temas para adquirir , nuevos
+                            conocimientos o técnicas manuales o artísticas.
+                            Podríamos decir que esos aprendizajes son intencionales ya que ustedes se los han propuesto.
+                            Pero también hay aprendizajes incidentales que se realizan en instancias informales.</p>
+                    </div>
+                    <div class="vistas-comentarios">
+                        <div class="vistas"><i class="far fa-eye"></i><small>266</small></div>
+                        <div class="comentarios"><i class="fab fa-discourse"></i><small>12</small></div>
+                        <div class="seguir"><a href="#">Seguir leyendo </a><i class="fas fa-arrow-right"></i></div>
+                    </div>
+                </div>
+            </article>
+            <article class="articulo">
+                <div class="imagen-articulo">
+                    <img src="https://conexionmigrante.com/wp-content/uploads/2020/04/zoom.png" alt="imagen1"
+                        class="post_img">
+                </div>
+                <div class="texto">
+                    <div class="titulo">
+                        <h2>Los mejores métodos para estudiar en cuarentena.</h2>
+                    </div>
+                    <div class="subtitulo">
+                        <h4>Mario Mendoza <span class="area">Jueves 4 de junio, 2020</span> </h4>
+                    </div>
+                    <div class="parrafo">
+                        <p>Durante la cuarentena se ha vuelto imprescindible el establecer buenas rutinas para llevar al
+                            día el estudio y los trabajos desde casa.
+                            En este artículo en concreto nuestros expertos en formación te cuentan algunos consejos y
+                            recomendaciones para estudiar desde casa
+                            durante la cuarentena.</p>
+                    </div>
+                    <div class="vistas-comentarios">
+                        <div class="vistas"><i class="far fa-eye"></i><small>143</small></div>
+                        <div class="comentarios"><i class="fab fa-discourse"></i><small>23</small></div>
+                        <div class="seguir"><a href="#">Seguir leyendo </a><i class="fas fa-arrow-right"></i></div>
+                    </div>
+                </div>
+            </article>
+            <article class="articulo">
+                <div class="imagen-articulo">
+                    <img src="https://uniquemindcare.com/wp-content/uploads/2020/03/bullying.jpg" alt="imagen1"
+                        class="post_img">
+                </div>
+                <div class="texto">
+                    <div class="titulo">
+                        <h2>La importancia de las relaciones humanas.</h2>
+                    </div>
+                    <div class="subtitulo">
+                        <h4>Ana Polo <span class="area">Miercoles 3 de junio, 2020</span> </h4>
+                    </div>
+                    <div class="parrafo">
+                        <p>Las relaciones humanas son especificamente las interacciones entre
+                            personas en un grupo pero que e regulan por principios y cultura donde intervienen
+                            habitos, valores, tradiciones, creencias, etc, esto en el ambiente laboral y social.</p>
+                    </div>
+                    <div class="vistas-comentarios">
+                        <div class="vistas"><i class="far fa-eye"></i><small>221</small></div>
+                        <div class="comentarios"><i class="fab fa-discourse"></i><small>2</small></div>
+                        <div class="seguir"><a href="#">Seguir leyendo </a><i class="fas fa-arrow-right"></i></div>
+                    </div>
+                </div>
+            </article>
+            <div class="boton">
+                <button>Ver más</button>
+            </div>
+        </div>
+        <div class="panel-derecho">
+            <div class="busqueda">
+                <i class="fas fa-search"></i> <input type="text" placeholder="Palabras Clave">
+            </div>
+            <div class="calendario">
+                <div class="encabezado">
+                    <p>
+                        <i class="fas fa-arrow-left"></i>
+                        <p>Junio 2020</p>
+                        <p>
+                            <i class="fas fa-arrow-right"></i>
+                </div>
+                <table class="t-calendario" id="tabla-calendario">
+                    <tbody>
+                        <tr>
+                            <th>D</th>
+                            <th>L</th>
+                            <th>M</th>
+                            <th>M</th>
+                            <th>J</th>
+                            <th>V</th>
+                            <th>S</th>
+                        </tr>
+                    </tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                        <td id="hoy">7</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                        <td>12</td>
+                        <td>13</td>
+                        <td>14</td>
+                    </tr>
+                    <tr>
+                        <td>15</td>
+                        <td>16</td>
+                        <td>17</td>
+                        <td>18</td>
+                        <td>19</td>
+                        <td>20</td>
+                        <td>21</td>
+                    </tr>
+                    <tr>
+                        <td>22</td>
+                        <td>23</td>
+                        <td>24</td>
+                        <td>25</td>
+                        <td>26</td>
+                        <td>27</td>
+                        <td>28</td>
+                    </tr>
+                    <tr>
+                        <td>29</td>
+                        <td>30</td>
+                        <td class="julio">1</td>
+                        <td class="julio">2</td>
+                        <td class="julio">3</td>
+                        <td class="julio">4</td>
+                        <td class="julio">5</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="noti-populares">
+                <h5>Noticias Populares</h5>
+                <div class="noticias">
+                    <div class="fecha">
+                        Julio 19, 2020
+                    </div>
+                    <div class="titulo-noticia">
+                        Baja la curva del COVID-19
+                    </div>
+                </div>
+                <div class="noticias">
+                    <div class="fecha">
+                        Mayo 30, 2020
+                    </div>
+                    <div class="titulo-noticia">
+                        La universidad, nuestro segundo hogar.
+                    </div>
+                </div>
+                <div class="noticias">
+                    <div class="fecha">
+                        Agosto 15, 2020
+                    </div>
+                    <div class="titulo-noticia">
+                        La UNI es catalogada como la mejor.
+                    </div>
+                </div>
+                <div class="noticias">
+                    <div class="fecha">
+                        Enero 19, 2020
+                    </div>
+                    <div class="titulo-noticia">
+                        Cumpleaños del rector!.
+                    </div>
+                </div>
+                <div class="noticias">
+                    <div class="fecha">
+                        Mayo 5, 2020
+                    </div>
+                    <div class="titulo-noticia">
+                        ¿Cómo proponerse metas?
+                    </div>
+                </div>
+                <div class="noticias">
+                    <div class="fecha">
+                        Marzo 27, 2020
+                    </div>
+                    <div class="titulo-noticia">
+                        ¿Cosas imposibles de lograr?
+                    </div>
+                </div>
+                <div class="noticias">
+                    <div class="fecha">
+                        Diciembre 31, 2020
+                    </div>
+                    <div class="titulo-noticia">
+                        ¿Qué metas tienes en mente?
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="principal">
+        <div class="derechos">
+            <strong>Todos los derechos reservados.</strong>
+        </div>
+        <div class="enlaces">
+            <a href="#">Acerca de</a>
+            <a href="#">Ayuda</a>
+            <a href="#">Contáctanos</a>
+        </div>
+        <div class="iconos">
+            <i class="fab fa-facebook-f fa-2x"></i>
+            <i class="fab fa-twitter fa-2x"></i>
+            <i class="fab fa-instagram fa-2x"></i>
+        </div>
+    </footer>
+</body>
+
+</html>
